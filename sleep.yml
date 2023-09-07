@@ -1,0 +1,8 @@
+---
+- name: debugging operations
+  hosts: localhost
+
+  tasks:
+  - name: pause for 30 minutes to debug
+    ansible.builtin.pause:
+      minutes: 30
